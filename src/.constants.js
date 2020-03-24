@@ -2,7 +2,7 @@ module.exports = Object.freeze({
   TOKEN: '1024323932:AAHliBxtGavY5F9j8H7mNNmdks2r-L-hoDw', //required
   ARIA_SECRET: 'bhadoo', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
-  INDEX_DOMAIN: 'https://rakacloud.raka.workers.dev', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
+  INDEX_DOMAIN: 'https://rakacloud.raka.workers.dev/RAKA/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION -leave as it is
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings -leave as it is
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded -leave as it is
