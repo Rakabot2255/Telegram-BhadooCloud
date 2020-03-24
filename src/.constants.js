@@ -13,7 +13,7 @@ module.exports = Object.freeze({
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting -leave as it is
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
-    EMAILS: ['ayushpal.3181@gmail.com', '2@gmail.com']
+    EMAILS: ['1@gmail.com', '2@gmail.com']
   }, // not required
   DOWNLOAD_NOTIFY_TARGET: {  // Information about the web service to notify on download completion. not required
     enabled: false,   // Set this to true to use the notify functionality
