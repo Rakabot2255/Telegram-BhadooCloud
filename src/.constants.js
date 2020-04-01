@@ -1,6 +1,6 @@
 module.exports = Object.freeze({
-  TOKEN: '1096910314:AAHw4nSjgNvV6RlkXT2R3io1n__W2fo21A4', //required
-  ARIA_SECRET: 'bhadoo', //change as per needs.
+  TOKEN: '1221921464:AAGhUBsNyzt95JgKMPQuZFH9w74Kz2Cl5KA', //required
+  ARIA_SECRET: 'ayushpal', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
   INDEX_DOMAIN: 'https://raka4.raka.workers.dev/RAKA4/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION -leave as it is
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
     COMMANDS_USE_BOT_NAME: {
       ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command.
-      NAME: "@RAKABOT4_bot" //Enter your Bot Username here if above is set to true.
+      NAME: "@Ayushpal2255_bot" //Enter your Bot Username here if above is set to true.
     }
 });
 
