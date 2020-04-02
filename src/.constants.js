@@ -1,13 +1,13 @@
 module.exports = Object.freeze({
-  TOKEN: '1221921464:AAGhUBsNyzt95JgKMPQuZFH9w74Kz2Cl5KA', //required
+  TOKEN: '1217567025:AAHfVCcWUX6fiEiErvYcPYo4_NP02l4vLIo', //required
   ARIA_SECRET: 'ayushpal', //change as per needs.
   ARIA_DOWNLOAD_LOCATION: '/app/downloads)', //-leave as it is
-  INDEX_DOMAIN: 'https://raka4.raka.workers.dev/RAKA4/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
+  INDEX_DOMAIN: 'https://rakademo.raka.workers.dev/Untitled%20folder/', // replace with your index domain. use https://github.com/ParveenBhadooOfficial/go-drive
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION -leave as it is
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings -leave as it is
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded -leave as it is
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well -leave as it is
-  GDRIVE_PARENT_DIR_ID:  '15d16dbdgJlZzIhNFzRQqfhI2c0Egr0dL', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
+  GDRIVE_PARENT_DIR_ID:  '1OezuANDqzZ8B5BFxTToARY45mgUcb4CT', // for directorty eg. https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9 use 1p7pHhSh2yboWePmo53DnVr3xkAYiojP9
   SUDO_USERS: [876435153],	// Telegram user IDs. These users can use the bot in any chat. required, get it using https://t.me/YourTGid_Bot
   AUTHORIZED_CHATS: [-1001177881184],	// Telegram chat IDs. Anyone in these chats can use the bot. Add https://t.me/YourTGid_Bot to Group and click /id
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting -leave as it is
@@ -23,7 +23,7 @@ module.exports = Object.freeze({
   },
     COMMANDS_USE_BOT_NAME: {
       ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command.
-      NAME: "@Ayushpal2255_bot" //Enter your Bot Username here if above is set to true.
+      NAME: "@Rakademo_bot" //Enter your Bot Username here if above is set to true.
     }
 });
 
